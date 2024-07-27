@@ -1,6 +1,6 @@
 {
   "name": "@eepson123tw/canvas-meme-image",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Vue component for displaying canvas images.",
   "type": "module",
   "files": [
@@ -47,5 +47,8 @@
   "repository": {
     "type": "git",
     "url": "git+"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@eepson123tw"
   }
 }
