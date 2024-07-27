@@ -2,17 +2,33 @@
   "name": "canvas-image",
   "version": "0.0.1",
   "type": "module",
-  "main": "dist/vue-address.common.js",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/canvas-image.umd.js",
+  "module": "dist/canvas-image.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/canvas-image.es.js",
+      "require": "./dist/canvas-image.umd.js"
+    },
+    "./dist/style.css": "./dist/style.css"
+  },
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc -b && vite build",
+    "build": "vite build && vue-tsc --emitDeclarationOnly",
+    "preserve": "vite build",
+    "serve": "vite preview --port 5050",
+    "typecheck": "vue-tsc --noEmit",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@types/node": "^20.14.12",
     "vue": "^3.4.31"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.5",
+    "path": "^0.12.7",
     "typescript": "^5.2.2",
     "vite": "^5.3.4",
     "vue-tsc": "^2.0.24"
