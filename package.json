@@ -49,6 +49,6 @@
     "url": "git+https://github.com/eepson123tw/canvas-image.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@eepson123tw"
+    "registry": "https://npm.pkg.github.com/eepson123tw"
   }
 }
