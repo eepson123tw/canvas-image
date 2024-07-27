@@ -1,6 +1,7 @@
 {
   "name": "canvas-image",
   "version": "0.0.1",
+  "description": "A Vue component for displaying canvas images.",
   "type": "module",
   "files": [
     "dist"
@@ -41,6 +42,13 @@
     "meme",
     "text to image"
   ],
-  "author": "Aaron Shih",
-  "license": "MIT"
+  "author": "ninocar215@gmail.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eepson123tw/canvas-image.git"
+  },
+  "publishConfig": {
+    "@eepson123tw:registry": "https://npm.pkg.github.com"
+  }
 }
