@@ -1,5 +1,5 @@
 {
-  "name": "@eepson123tw/canvas-meme-image",
+  "name": "canvas-meme-image",
   "version": "0.0.1",
   "description": "A Vue component for displaying canvas images.",
   "type": "module",
@@ -42,7 +42,7 @@
     "meme",
     "text to image"
   ],
-  "author": "ninocar215@gmail.com",
+  "author": "eepson123tw",
   "license": "MIT",
   "repository": {
     "type": "git",
