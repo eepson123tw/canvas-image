@@ -1,6 +1,6 @@
 {
   "name": "@eepson123tw/canvas-meme",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "description": "A Vue component for displaying canvas images.",
   "type": "module",
   "files": [
