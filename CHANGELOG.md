@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.17](///compare/v0.0.1...v0.0.17) (2024-07-30)
+
+
+### Features
+
+* **package.json:** fix the package.json fa02dfa
+* **type-generate:** add a tag 053da5c
+
 ### [0.0.16](///compare/v0.0.1...v0.0.16) (2024-07-30)
 
 
