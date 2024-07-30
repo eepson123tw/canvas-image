@@ -6,21 +6,7 @@ on:
       - master
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 16
-      - run: |
-          echo "registry=https://registry.npmjs.org/" > ~/.npmrc
-          echo "@eepson123tw:registry=https://npm.pkg.github.com/" >> ~/.npmrc
-          echo "//npm.pkg.github.com/:_authToken=${{ secrets.NPM_TOKEN }}" >> ~/.npmrc
-      - run: npm install
-
   publish-gpr:
-    needs: build
     runs-on: ubuntu-latest
     permissions:
       packages: write
