@@ -1,5 +1,3 @@
-/// <reference path="components.d.ts" />;
-
 import "./style.css";
 import CanvasImage from "./components/CanvasImage.vue";
 import { App as Application } from "vue";
