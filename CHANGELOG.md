@@ -2,6 +2,39 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.18](https://github.com/eepson123tw/canvas-image/compare/v0.0.1...v0.0.18) (2024-07-30)
+
+
+### Features
+
+* **package.json:** fix the package.json ([e5e2b88](https://github.com/eepson123tw/canvas-image/commit/e5e2b889ba9c72048280db8817882b1cb51e210c))
+* **README.md:** fix the readme ([12ccb04](https://github.com/eepson123tw/canvas-image/commit/12ccb04ecb8b7f6327ef13e50543f807ddf0aff8))
+* **type-generate:** add a tag ([053da5c](https://github.com/eepson123tw/canvas-image/commit/053da5c95645dbb19441a94fba38a3a657fa7e28))
+* **yml:** fix the yml ([4c72d8e](https://github.com/eepson123tw/canvas-image/commit/4c72d8e666f76895e5492b956a5b63987620c2c8))
+* **yml:** fix the yml ([b367f61](https://github.com/eepson123tw/canvas-image/commit/b367f61433b80b80b8d9388e7f840294b8966bb6))
+* **yml:** fix the yml ([04187ba](https://github.com/eepson123tw/canvas-image/commit/04187ba0adf6a390b0ae262dd43cf30cf6bc099b))
+* **yml:** fix the yml ([dd82d4a](https://github.com/eepson123tw/canvas-image/commit/dd82d4acfc14e72a9f27201ee52d4c94271e58a2))
+* **yml:** fix the yml ([3bffe64](https://github.com/eepson123tw/canvas-image/commit/3bffe649e5c1c3a15330c325a2af7c12c9b50f79))
+* **yml:** fix the yml ([6c2c942](https://github.com/eepson123tw/canvas-image/commit/6c2c94244bc2277424f12a6ff44c8d53187f7989))
+* **yml:** fix the yml ([d60eaf8](https://github.com/eepson123tw/canvas-image/commit/d60eaf898116c44e7de75908205e313a14d71225))
+* **yml:** fix the yml ([5c1df45](https://github.com/eepson123tw/canvas-image/commit/5c1df45a63a4305ff1dc48efb35848348e8e1c1d))
+* **yml:** fix the yml ([bfeb27b](https://github.com/eepson123tw/canvas-image/commit/bfeb27b61767cdc997981196e04181d1a49d1248))
+* **yml:** fix the yml ([9c497a8](https://github.com/eepson123tw/canvas-image/commit/9c497a8dcf3792e1db7c5d1a012bdd3d060368db))
+* **yml:** fix the yml again ([87f2056](https://github.com/eepson123tw/canvas-image/commit/87f2056895c72f1d9f4734214135269bf116de94))
+
+
+### Bug Fixes
+
+* **yml:** fix the yml ([a9eaf90](https://github.com/eepson123tw/canvas-image/commit/a9eaf902dfe5227f8a72fb1377b526f094857906))
+* **yml:** fix the yml ([7565673](https://github.com/eepson123tw/canvas-image/commit/756567334eeb030dc4f277f8531424a8c30946df))
+* **yml:** fix the yml again ([c537a29](https://github.com/eepson123tw/canvas-image/commit/c537a290ce3f743cd73354e36b93353aab58a3f2))
+* **yml:** fix the yml again ([2288154](https://github.com/eepson123tw/canvas-image/commit/228815431147f30b3959b2aad40d9233732548b5))
+* **yml:** fix the yml QQ ([19a18d6](https://github.com/eepson123tw/canvas-image/commit/19a18d68615e38f9747b02220742f4be67330cba))
+* **yml:** fix the yml QQ ([e383c7f](https://github.com/eepson123tw/canvas-image/commit/e383c7fadf29b9fd2a174c4aa30c56b79317ec52))
+* **yml:** fix the yml QQQ ([17025d2](https://github.com/eepson123tw/canvas-image/commit/17025d2f500645fa679ad6c11e79bbcae7681a50))
+* **yml:** fix the yml QQQQ ([0c91015](https://github.com/eepson123tw/canvas-image/commit/0c9101509390202b7b07b2d545426d2ce10f6196))
+* **yml:** fix the yml QQQQQ ([d13996c](https://github.com/eepson123tw/canvas-image/commit/d13996c54cc279c7d0f4d94de3ebea0ad1b003b6))
+
 ### [0.0.17](https://github.com/eepson123tw/canvas-image/compare/v0.0.1...v0.0.17) (2024-07-30)
 
 

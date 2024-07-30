@@ -18,9 +18,9 @@ Canvas Meme Image 是一個基於 TypeScript 和 Vue 的 npm 包，可以上傳�
 使用 npm 或 yarn 安裝：
 
 ```bash
-npm install @eepson123tw/canvas-meme-image
+npm install @eepson123tw/canvas-meme
 # 或
-yarn add @eepson123tw/canvas-meme-image
+yarn add @eepson123tw/canvas-meme
 ```
 
 ## 使用方法
@@ -53,9 +53,9 @@ Canvas Meme Image is an npm package based on TypeScript and Vue that allows you 
 Install using npm or yarn:
 
 ```bash
-npm install @eepson123tw/canvas-meme-image
+npm install @eepson123tw/canvas-meme
 # or
-yarn add @eepson123tw/canvas-meme-image
+yarn add @eepson123tw/canvas-meme
 ```
 
 ## Usage
