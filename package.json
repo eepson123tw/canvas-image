@@ -1,6 +1,6 @@
 {
   "name": "@eepson123tw/canvas-meme-image",
-  "version": "0.0.6",
+  "version": "0.0.14",
   "description": "A Vue component for displaying canvas images.",
   "type": "module",
   "files": [
@@ -17,21 +17,24 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "vite build && vue-tsc --emitDeclarationOnly",
+    "build": "vite build && pnpm run generate:types",
     "preserve": "vite build",
     "serve": "vite preview --port 5050",
     "typecheck": "vue-tsc --noEmit",
     "preview": "vite preview",
     "prepare": "husky",
     "release": "standard-version",
-    "precommit": "node scripts/verify-commit.js"
+    "precommit": "node scripts/verify-commit.js",
+    "generate:types": "vue-tsc --emitDeclarationOnly"
   },
+  "types": "./dist/src/index.d.ts",
   "dependencies": {
     "@types/node": "^20.14.12",
     "enquirer": "^2.4.1",
     "pico": "^0.1.17",
     "picocolors": "^1.0.1",
     "semver": "^7.6.3",
+    "vite-plugin-dts": "4.0.0-beta.1",
     "vue": "^3.4.31"
   },
   "devDependencies": {
@@ -62,6 +65,7 @@
   },
   "standard-version": {
     "skip": {
+      "commit": true,
       "tag": true
     }
   }
