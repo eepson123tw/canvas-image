@@ -2,6 +2,33 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.20](///compare/v0.0.1...v0.0.20) (2024-07-30)
+
+
+### Features
+
+* **package.json:** fix the package.json e5e2b88
+* **type-generate:** add a tag 053da5c
+* **yml:** fix the yml aa99e0e
+
+### [0.0.19](///compare/v0.0.1...v0.0.19) (2024-07-30)
+
+
+### Features
+
+* **package.json:** fix the package.json e5e2b88
+* **type-generate:** add a tag 053da5c
+* **yml:** fix the yml af613a7
+
+### [0.0.18](///compare/v0.0.1...v0.0.18) (2024-07-30)
+
+
+### Features
+
+* **package.json:** fix the package.json e5e2b88
+* **type-generate:** add a tag 053da5c
+* **yml:** fix the yml 58f019d
+
 ### [0.0.17](///compare/v0.0.1...v0.0.17) (2024-07-30)
 
 
