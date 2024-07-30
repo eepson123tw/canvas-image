@@ -23,6 +23,7 @@ jobs:
           npm config set //registry.npmjs.org/:_authToken=$NODE_AUTH_TOKEN
           npm config set scope "<@OWNER>"
           npm config list
+          npm install
           npm publish --access public
         env:
           CI: true
