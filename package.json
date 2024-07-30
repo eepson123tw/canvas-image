@@ -1,6 +1,6 @@
 {
   "name": "@eepson123tw/canvas-meme",
-  "version": "0.0.18",
+  "version": "0.0.19",
   "description": "A Vue component for displaying canvas images.",
   "type": "module",
   "files": [
@@ -27,7 +27,7 @@
     "precommit": "node scripts/verify-commit.js",
     "generate:types": "vue-tsc --emitDeclarationOnly"
   },
-  "types": "./dist/src/index.d.ts",
+  "types": "./dist/src/components/CanvasImage.vue.d.ts",
   "dependencies": {
     "@types/node": "^20.14.12",
     "enquirer": "^2.4.1",
