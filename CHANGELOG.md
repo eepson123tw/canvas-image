@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.23](https://github.com/eepson123tw/canvas-image/compare/v0.0.1...v0.0.23) (2024-07-30)
+
+
+### Features
+
+* **package.json:** fix the package.json ([e5e2b88](https://github.com/eepson123tw/canvas-image/commit/e5e2b889ba9c72048280db8817882b1cb51e210c))
+* **type-generate:** add a tag ([053da5c](https://github.com/eepson123tw/canvas-image/commit/053da5c95645dbb19441a94fba38a3a657fa7e28))
+* **yml:** fix the yml ([01094a7](https://github.com/eepson123tw/canvas-image/commit/01094a77ede32ed20f9d3f9c54e7c5e5ec767803))
+* **yml:** fix the yml ([bfeb27b](https://github.com/eepson123tw/canvas-image/commit/bfeb27b61767cdc997981196e04181d1a49d1248))
+* **yml:** fix the yml ([9c497a8](https://github.com/eepson123tw/canvas-image/commit/9c497a8dcf3792e1db7c5d1a012bdd3d060368db))
+* **yml:** fix the yml again ([87f2056](https://github.com/eepson123tw/canvas-image/commit/87f2056895c72f1d9f4734214135269bf116de94))
+
 ### [0.0.22](///compare/v0.0.1...v0.0.22) (2024-07-30)
 
 

@@ -14,20 +14,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         # Publish to NPMJS
-      - uses: actions/setup-node@master
-        with:
-          node-version: 18
-          registry-url: "https://registry.npmjs.org/"
-      - name: Publish to NPMJS
-        run: |
-          npm config set //registry.npmjs.org/:_authToken=$NODE_AUTH_TOKEN
-          npm config set scope "<@OWNER>"
-          npm config list
-          npm install
-          npm publish --access public
-        env:
-          CI: true
-          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
       - uses: actions/setup-node@v4
         with:
           node-version: 18
