@@ -23,7 +23,7 @@
     "typecheck": "vue-tsc --noEmit",
     "preview": "vite preview",
     "prepare": "husky",
-    "release": "standard-version",
+    "release": "./release.sh",
     "precommit": "node scripts/verify-commit.js",
     "generate:types": "vue-tsc --emitDeclarationOnly"
   },
