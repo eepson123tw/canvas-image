@@ -1,6 +1,6 @@
 {
   "name": "@eepson123tw/canvas-meme",
-  "version": "0.0.22",
+  "version": "0.0.23",
   "description": "A Vue component for displaying canvas images.",
   "type": "module",
   "files": [
@@ -11,7 +11,8 @@
   "exports": {
     ".": {
       "import": "./dist/canvas-image.es.js",
-      "require": "./dist/canvas-image.umd.js"
+      "require": "./dist/canvas-image.umd.js",
+      "types": "./dist/types/index.d.ts"
     },
     "./dist/style.css": "./dist/style.css"
   },
