@@ -1,7 +1,8 @@
 <script setup lang="ts">
-import CanvasImage from "./index";
+import CanvasImage from "./components/CanvasImage.vue";
+import img from "./assets/apple.png";
 </script>
 
 <template>
-  <CanvasImage></CanvasImage>
+  <CanvasImage :source="img" :replace-content="'a'"></CanvasImage>
 </template>
