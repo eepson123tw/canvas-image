@@ -10,7 +10,6 @@ export default defineConfig({
     vue(),
     dts({
       clearPureImport: true,
-      tsconfigPath: "./tsconfig.app.json",
     }),
   ],
   resolve: {
