@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { CanvasImage } from "./index";
+import CanvasImage from "./index";
 </script>
 
 <template>

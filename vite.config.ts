@@ -9,8 +9,8 @@ export default defineConfig({
   plugins: [
     vue(),
     dts({
+      clearPureImport: true,
       tsconfigPath: "./tsconfig.app.json",
-      insertTypesEntry: true,
     }),
   ],
   resolve: {
@@ -20,20 +20,22 @@ export default defineConfig({
   },
   build: {
     cssCodeSplit: true,
+    sourcemap: true,
+    emptyOutDir: true,
     target: "esnext",
+    outDir: "./dist",
     lib: {
       // Could also be a dictionary or array of multiple entry points
       entry: resolve(dirname(fileURLToPath(import.meta.url)), "src/index.ts"),
       name: "canvas-image",
       // the proper extensions will be added
-      fileName: (fileName) => `canvas-image.${fileName}.js`,
+      fileName: (fileName) => `${"canvas-image"}.${fileName}.js`,
     },
     rollupOptions: {
       // make sure to externalize deps that shouldn't be bundled
       // into your library
       external: ["vue"],
       output: {
-        exports: "named",
         // Provide global variables to use in the UMD build
         // for externalized deps
         globals: {

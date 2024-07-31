@@ -2,33 +2,43 @@
   "files": [],
   "references": [
     {
-      "path": "./tsconfig.app.json"
+      "path": "./tsconfig.app.json" // 應用程式的 TypeScript 配置
     },
     {
-      "path": "./tsconfig.node.json"
+      "path": "./tsconfig.node.json" // Node.js 環境的 TypeScript 配置
+    },
+    {
+      "path": "./tsconfig.config.json" // 特定配置的 TypeScript 配置
     }
   ],
   "compilerOptions": {
-    "baseUrl": "./",
-    "target": "esnext",
-    "useDefineForClassFields": true,
-    "module": "esnext",
-    "moduleResolution": "node",
-    "isolatedModules": true,
-    "strict": true,
-    "jsx": "preserve",
-    "sourceMap": true,
-    "resolveJsonModule": true,
-    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true, // 允許合成默認導入
+    "baseUrl": "./", // 基本路徑設置
+    "declaration": true, // 生成宣告文件
+    "declarationDir": "./dist/types", // 宣告文件的輸出目錄
+    "esModuleInterop": true, // 允許 ES 模組互操作性
+    "experimentalDecorators": true, // 啟用實驗性的裝飾器功能
+    "importHelpers": true, // 引入幫助函數
+    "isolatedModules": true, // 每個文件作為一個單獨的模組處理
+    "jsx": "preserve", // 保留 JSX 語法
+    "lib": ["esnext", "dom", "dom.iterable", "scripthost"], // 使用的 TypeScript 標準庫
+    "module": "esnext", // 模組格式
+    "target": "esnext", // 編譯目標
+    "moduleResolution": "node", // 模組解析策略
+    "noUnusedLocals": true, // 不允許未使用的本地變量
+    "noUnusedParameters": true, // 不允許未使用的參數
+    "outDir": "dist", // 輸出目錄
     "paths": {
-      "@/*": ["src/*"]
+      "@/*": ["src/*"] // 路徑別名設置
     },
-    "lib": ["esnext", "dom", "dom.iterable", "scripthost"],
-    "skipLibCheck": true,
-    "outDir": "dist",
-    "declaration": true,
-    "declarationDir": "types",
-    "typeRoots": ["./node_modules/@types"]
+    "resolveJsonModule": true, // 允許導入 JSON 模組
+    "sourceMap": true, // 生成 source map
+    "strict": true, // 啟用所有嚴格的類型檢查選項
+    "types": ["node", "vue"], // 包含的類型定義
+    "useDefineForClassFields": true // 使用 `define` 關鍵字定義類字段
   },
-  "exclude": ["src/App.vue", "src/main.ts", "node_modules"]
+  "exclude": [
+    "node_modules", // 排除 node_modules 目錄
+    "dist" // 排除 dist 目錄
+  ]
 }

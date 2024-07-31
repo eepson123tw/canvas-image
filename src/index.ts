@@ -1,15 +1,9 @@
 import "./style.css";
-import CanvasImage from "./components/CanvasImage.vue";
-import { App as Application } from "vue";
+import component, * as namedExports from "./index.esm";
 
-const install = (app: Application) => {
-  app.component("CanvasImage", CanvasImage);
-};
+Object.entries(namedExports).forEach(([exportName, exported]) => {
+  if (exportName !== "default") component[exportName] = exported;
+});
 
-const library = {
-  install,
-  CanvasImage,
-};
-
-export default library;
-export { CanvasImage };
+export default component as typeof component &
+  Exclude<typeof namedExports, "default">;
