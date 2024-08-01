@@ -17,13 +17,19 @@ export interface Props {
   replaceContent: string;
   fontSize?: number;
   font?: string;
-  isGray?: boolean;
+  color?: string;
   radius?: number;
   source?: string;
+  canvasWidth?: number;
+  canvasHeight?: number;
 }
 
 const props = withDefaults(defineProps<Props>(), {
   replaceContent: "啊",
+  font: "monospace",
+  fontSize: 2,
+  canvasHeight: 400,
+  canvasWidth: 600,
 });
 
 const { readFile, fetchImageAsFile } = useFile();
@@ -44,8 +50,8 @@ const drawCanvas = (dataURI: string) => {
   img.onload = function () {
     const canvas = canvasRef.value!;
     const ctx = canvas.getContext("2d");
-    canvas.width = img.width;
-    canvas.height = img.height;
+    canvas.width = img.width > props.canvasWidth ? props.canvasWidth : 600;
+    canvas.height = img.height > props.canvasHeight ? props.canvasHeight : 400;
     if (!ctx) return;
 
     ctx.clearRect(0, 0, canvas.width, canvas.height); // Clear canvas before drawing
@@ -53,8 +59,8 @@ const drawCanvas = (dataURI: string) => {
 
     const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
     ctx.clearRect(0, 0, canvas.width, canvas.height);
-    ctx.font = "4px monospace";
-    ctx.fillStyle = "#000";
+    ctx.font = `${props.fontSize}px ${props.font}`;
+    ctx.fillStyle = props.color || "black";
     const threshold = 240;
 
     for (let y = 0; y < imageData.height; y += 4) {
